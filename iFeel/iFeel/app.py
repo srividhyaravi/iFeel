@@ -1,6 +1,6 @@
 from flask import Flask, flash, redirect, render_template, request, session, abort
 import cgi
-from sentiment_analysis import get_tweets
+from extract_tweets import get_tweets
 
 app = Flask(__name__)
  
@@ -11,9 +11,10 @@ def my_form():
 @app.route('/',methods = ['POST'])
 def result():
       result = request.form['twitter']
-      get_tweets(result)
-      return render_template("result.html",result = result)
+      sad_score_list = get_tweets(result)
+      labels = ["January","February","March","April","May","June","July","August"]
+      return render_template("result.html", values=sad_score_list, labels=labels)
 
 
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', port=5000,debug=True)
+    app.run(host='127.0.0.1', port=1234,debug=True)
