@@ -3,8 +3,8 @@ import json
 
 
 def analyze_tone(text):
-    username = '25375eb8-4686-4570-86e2-53ef5c90757d'
-    password = 'gA1zFKMMlt4G'
+    username = ''
+    password = ''
     watsonUrl = 'https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone?version=2016-05-18'
     headers = {"content-type": "text/plain"}
     data = text
