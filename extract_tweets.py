@@ -7,10 +7,10 @@ from sentiment_analysis import analyze
 
 
 # Twitter API credentials
-consumer_key ="9otMNybhzRxzrFX6bekrNg74Y"
-consumer_secret ="d9wu4hGEoGix8ifoMNI2YbBm1hhaUWvP23qrPERwtVaqKRCaOs"
-access_token ="1007210725046083584-ElGBJX1K03B58BjgnrdP4RorfVPKqp"
-access_secret ="QPIogGrVVVGXaoRe8XV2u53lCtq8sk8YiywVRPX5sJtAO"
+consumer_key =""
+consumer_secret =""
+access_token =""
+access_secret =""
 
 
 def get_tweets(screen_name):
