@@ -1,5 +1,5 @@
-# iFeel
-iFeel uses NLP Technology to extract semantic meta-data from tweets. From this we are able to determine whether or not the sentiment of a particular user's social page is uncommonly negative. Built using Javascript, chart.js and Flask. IBM Watson Tone Analyser is used for extracting sentiments
+# iMood
+iMood uses NLP Technology to extract semantic meta-data from tweets. From this we are able to determine whether or not the sentiment of a particular user's social page is uncommonly negative. Built using Javascript, chart.js and Flask. IBM Watson Tone Analyser is used for extracting sentiments
 
 ## PAPER HERE : https://www.irjet.net/archives/V5/i8/IRJET-V5I8163.pdf
 
